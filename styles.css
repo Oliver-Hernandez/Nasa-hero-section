@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'nasa-1';
+    src: url(Files/kamerik-105-cyrillic/Kamerik\ 105\ Cyrillic\ Bold.otf);
+
+      
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'nasa-1', sans-serif;
+    background-image: url(Files/Background.png);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
+ 
+
+.search-bar input{
+    outline:none;
+    position: relative;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    background-color: transparent;
+    padding: 0 20px;
+    text-align: center;
+    font-size:18px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    top:-5px;
+    left:-1px;
+    transition: .4s;
+    
+    
+    
+}
+
+.icon-search{
+    background: transparent;
+    height:40px;
+    width:40px;
+    border-radius: 30px;
+   
+    
+}
+
+.search-bar:hover input{
+    width: 260px;
+    background-color: #fff;
+    border: 1px solid #f51d41;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    padding:30px;
+    
+}
+
+.logo{
+    width: 120px;
+    transform: translate(-6vw)
+    
+}
+
+.navbar a:hover{
+    color: #f51d41;
+}
+
+.center-text{
+    color: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    
+    
+}
+
+.h3-center{
+    font-size:1em;
+    color: rgba(245, 245, 245, 0.884);
+    margin:0;
+    align-self: flex-end;
+    transform: translate(0, 3.5em);
+    margin: 0 .8em;
+    
+    
+}
+
+.h1-center{
+    margin:0;
+    font-size:13em;
+    transition: 1s;
+    
+}
+
+.h1-center:hover{
+    background-image: url(Files/B-text.jpg);
+    background-size: cover ;
+    color: #53040811;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(2, 2)
+    
+}
+
+.explore{ 
+    margin:0;
+    display:flex;
+    align-items: center;
+    /*transform: translate(-50%, -10%)*/
+    align-self: flex-start;
+    margin: 0 .8em;
+    
+    
+}
+.explore a{
+    letter-spacing:4px;
+    
+    
+}
+.explore a:hover{
+    color: #f51d41;
+    transform: scale(1.1, 1.1);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.icon-1{
+    width:80px;
+    position:relative;
+    
+    
+}
+.mission-text{
+    font-weight: 800;
+    transition: .4s;
+}
+
+.mission{
+    color:rgba(199, 199, 199, 0.89);
+    display: flex;
+    align-items: center;
+    position:absolute;
+    bottom: 5vh;
+    left: 11vw;
+    font-family: sans-serif;
+    gap: 1vw;
+
+    
+}
+.mission a:hover{
+    color: #f51d41;
+    transform: scale(1.1, 1.1);
+}
